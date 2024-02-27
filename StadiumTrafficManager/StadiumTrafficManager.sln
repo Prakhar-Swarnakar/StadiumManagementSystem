@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumTrafficManager", "StadiumTrafficManager.csproj", "{68A3BEA9-C81E-4B08-AD3E-89A646507ADB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumTrafficManager.Common", "..\StadiumTrafficManager.Common\StadiumTrafficManager.Common.csproj", "{6C13FFF5-C1FB-411A-8C3D-E25973B3611C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumTrafficManager.Services", "..\StadiumTrafficManager.Services\StadiumTrafficManager.Services.csproj", "{F60FB1B2-4B7C-4025-91B3-01ACCA8F84D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumTrafficManager.Repository", "..\StadiumTrafficManager.Repository\StadiumTrafficManager.Repository.csproj", "{300832B4-7E64-4518-A765-671725C1F680}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumTrafficManager.SensorDataService", "..\StadiumTrafficManager.SensorDataService\StadiumTrafficManager.SensorDataService.csproj", "{8C87BB7C-FC47-4F53-B3FC-307392EAA7DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StadiumTrafficManager.Tests", "..\StadiumTrafficManager.Tests\StadiumTrafficManager.Tests.csproj", "{860D3DB1-D00E-464E-AFA9-9AC11D0D1F7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A3BEA9-C81E-4B08-AD3E-89A646507ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A3BEA9-C81E-4B08-AD3E-89A646507ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A3BEA9-C81E-4B08-AD3E-89A646507ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A3BEA9-C81E-4B08-AD3E-89A646507ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C13FFF5-C1FB-411A-8C3D-E25973B3611C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C13FFF5-C1FB-411A-8C3D-E25973B3611C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C13FFF5-C1FB-411A-8C3D-E25973B3611C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C13FFF5-C1FB-411A-8C3D-E25973B3611C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F60FB1B2-4B7C-4025-91B3-01ACCA8F84D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60FB1B2-4B7C-4025-91B3-01ACCA8F84D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60FB1B2-4B7C-4025-91B3-01ACCA8F84D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60FB1B2-4B7C-4025-91B3-01ACCA8F84D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300832B4-7E64-4518-A765-671725C1F680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300832B4-7E64-4518-A765-671725C1F680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300832B4-7E64-4518-A765-671725C1F680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300832B4-7E64-4518-A765-671725C1F680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C87BB7C-FC47-4F53-B3FC-307392EAA7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C87BB7C-FC47-4F53-B3FC-307392EAA7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C87BB7C-FC47-4F53-B3FC-307392EAA7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C87BB7C-FC47-4F53-B3FC-307392EAA7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860D3DB1-D00E-464E-AFA9-9AC11D0D1F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860D3DB1-D00E-464E-AFA9-9AC11D0D1F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860D3DB1-D00E-464E-AFA9-9AC11D0D1F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860D3DB1-D00E-464E-AFA9-9AC11D0D1F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88E4B7E3-1787-4B2B-A36E-BF32408C7671}
+	EndGlobalSection
+EndGlobal

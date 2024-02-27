@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nn0AJ41gw8TyAw1hmZTl/a398BfmtAcab19NSXXIs2eahcexeiDGLusHl/4GLIhavKkgExsMPR4A4WIs0+anvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\Sensor Simulator\\Sensor Simulator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\H532843\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\H532843\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\H532843\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\H532843\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

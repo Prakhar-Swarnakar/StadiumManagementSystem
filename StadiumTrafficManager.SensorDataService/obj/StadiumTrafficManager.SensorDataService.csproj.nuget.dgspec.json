@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.SensorDataService\\StadiumTrafficManager.SensorDataService.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\StadiumTrafficManager.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\StadiumTrafficManager.Common.csproj",
+        "projectName": "StadiumTrafficManager.Common",
+        "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\StadiumTrafficManager.Common.csproj",
+        "packagesPath": "C:\\Users\\H532843\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\H532843\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Repository\\StadiumTrafficManager.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Repository\\StadiumTrafficManager.Repository.csproj",
+        "projectName": "StadiumTrafficManager.Repository",
+        "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Repository\\StadiumTrafficManager.Repository.csproj",
+        "packagesPath": "C:\\Users\\H532843\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\H532843\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\StadiumTrafficManager.Common.csproj": {
+                "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\StadiumTrafficManager.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.SensorDataService\\StadiumTrafficManager.SensorDataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.SensorDataService\\StadiumTrafficManager.SensorDataService.csproj",
+        "projectName": "StadiumTrafficManager.SensorDataService",
+        "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.SensorDataService\\StadiumTrafficManager.SensorDataService.csproj",
+        "packagesPath": "C:\\Users\\H532843\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.SensorDataService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\H532843\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Services\\StadiumTrafficManager.Services.csproj": {
+                "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Services\\StadiumTrafficManager.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Services\\StadiumTrafficManager.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Services\\StadiumTrafficManager.Services.csproj",
+        "projectName": "StadiumTrafficManager.Services",
+        "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Services\\StadiumTrafficManager.Services.csproj",
+        "packagesPath": "C:\\Users\\H532843\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\H532843\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\StadiumTrafficManager.Common.csproj": {
+                "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Common\\StadiumTrafficManager.Common.csproj"
+              },
+              "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Repository\\StadiumTrafficManager.Repository.csproj": {
+                "projectPath": "C:\\Projects\\Learning Files\\EBI Incremental Task\\StadiumTrafficManager.Repository\\StadiumTrafficManager.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
