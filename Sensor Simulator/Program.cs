@@ -46,6 +46,14 @@ void Send()
                     doorEvent.Type = Console.ReadLine();
 
                     doorEvent.Timestamp = DateTime.UtcNow;
+
+                    DoorEvent doorEvent2 = new DoorEvent
+                    {
+                        Gate = "Gate B",
+                        Timestamp = DateTime.UtcNow,
+                        NumberOfPeople = 110 + i,
+                        Type = "Entry"
+                    };
                 }
 
                 string jsonMessage = JsonConvert.SerializeObject(doorEvent);
